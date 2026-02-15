@@ -35,6 +35,10 @@
 int main()
 {
     int array[szz] = { 5,5,7,3,3,2,2,1,1,10 };
+    //int array[szz] = { 1,2,3,4,5,6,7,8,9,10 };
+    //int array[szz] = { 5,5,5,5,5,5,5,5,5,5 };
+    //int array[szz] = { -5,-5,-7,-3,-3,-2,-2,-1,-1,-10 };
+    //int array[szz] = { -5,5,-5,5,-5,5,-5,5,-5,5 };
     int max = array[0];
     for (int i = 1; i < szz; i++)
         if (array[i] > max) max = array[i];
